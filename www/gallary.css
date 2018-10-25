@@ -1,0 +1,95 @@
+
+*{
+    margin: 0px; 
+    padding: 0px ;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  figure{
+    position: relative;
+    width: 25%;
+    float: left;
+     padding: 5px; 
+  }
+  
+  
+  figure:hover figcaption{
+  
+  display: block;
+    
+  }
+  
+  
+  
+  figure img{
+    
+    width: 100%;
+    vertical-align: middle;
+
+
+     /* The image used */
+     background-image: url("img_girl.jpg");
+
+     /* Full height */
+     height: 100%; 
+ 
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+  }
+  
+  .clearfix::after{
+    
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  .half{
+    width: 50%;
+    
+  }
+  
+  
+  figcaption{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    
+    
+    margin-bottom: 5px;
+   left: 5px;
+   right: 5px;
+   padding: 5px; 
+   text-align: center;
+   line-height: 1;
+   
+  }
+
+  .body{
+
+    
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+  }
+
+  
+
+  body, html {
+    height: 100%;
+}
+
